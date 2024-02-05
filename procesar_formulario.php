@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mensaje = $_POST["subject"];
 
    
-    $destinatario = "atcriado@gmail.com";
+    $destinatario = "aleclasesparticulares24@gmail.com";
     $asunto = "Solicitud de clase de $nombre";
     $contenido = "Nombre: $nombre\nEmail: $email\nEdad: $edad\nMensaje: $mensaje";
     mail($destinatario, $asunto, $contenido);
